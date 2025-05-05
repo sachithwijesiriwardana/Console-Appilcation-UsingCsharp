@@ -89,7 +89,24 @@
 
 //Console.WriteLine("Loop is over");
 
-while(true)
+//while(true)
+//{
+//    Console.WriteLine(DateTime.Now);
+//}
+
+//After the value comes it stops
+
+Console.WriteLine("Enter a value");
+int max = int.Parse(Console.ReadLine());
+
+for (int i = 0; i < max; i++)
 {
-    Console.WriteLine(DateTime.Now);
+    if (i == 5)
+    {
+        Console.WriteLine("Bingo" + i + "was found");
+
+
+            continue;
+            }
+    Console.WriteLine(i);
 }
