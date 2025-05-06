@@ -14,7 +14,7 @@ namespace HelloFromCsharp
             int months1 = 12;
 
             int yesrlyWageForEmployee1 = CalculateYearlyWageWithOptional(monthlyWage: monthlywage,
-    numberOfMonthsWorked: months1);
+             numberOfMonthsWorked: months1);
             Console.WriteLine(yesrlyWageForEmployee1);
 
         }
