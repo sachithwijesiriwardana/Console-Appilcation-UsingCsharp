@@ -110,14 +110,19 @@
 //}
 
 
+//using HelloFromCsharp;
+
+//int amount = 1234;
+//int months = 12;
+//int bonus = 50;
+
+//int yearlyWage = Utilities.CalculateYearlyWage(amount, months, bonus);
+
+//Console.WriteLine(yearlyWage);
+//Console.ReadLine();
+
 using HelloFromCsharp;
 
-int amount = 1234;
-int months = 12;
+Utilities.UsingOptionalParameters();
 
-int yearlyWage = Utilities.CalculateYearlyWage(amount, months);
-
-Console.WriteLine(yearlyWage);
-Console.ReadLine();
-
-
+//Optinoal parameters 
