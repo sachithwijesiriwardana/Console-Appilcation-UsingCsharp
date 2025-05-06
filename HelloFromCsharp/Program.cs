@@ -96,17 +96,38 @@
 
 //After the value comes it stops
 
-Console.WriteLine("Enter a value");
-int max = int.Parse(Console.ReadLine());
+//Console.WriteLine("Enter a value");
+//int max = int.Parse(Console.ReadLine());
 
-for (int i = 0; i < max; i++)
+//for (int i = 0; i < max; i++)
+//{
+//    if (i == 5)
+//    {
+//        Console.WriteLine("Bingo" + i + "was found");
+//        continue;
+//    }
+//    Console.WriteLine(i);
+//}
+
+
+int amount = 1234;
+int months = 12;
+
+int yearlyWage = CalculateYearlyWage(amount, months);
+
+Console.WriteLine(yearlyWage);
+Console.ReadLine();
+
+
+static int CalculateYearlyWage(int monthlyWage ,int numberOfMonthsWorked)
 {
-    if (i == 5)
-    {
-        Console.WriteLine("Bingo" + i + "was found");
+
+    //Console.WriteLine($"Yearly wage : {monthlyWage * numberOfMonthsWorked}");
+   // return monthlyWage * numberOfMonthsWorked;
+
+    if (numberOfMonthsWorked == 12)
+    return monthlyWage * (numberOfMonthsWorked + 1);
+    return monthlyWage * numberOfMonthsWorked;
 
 
-            continue;
-            }
-    Console.WriteLine(i);
 }
