@@ -123,6 +123,7 @@
 
 using HelloFromCsharp;
 
-Utilities.UsingOptionalParameters();
+Utilities.UsingStringEquality();
+
 
 //Optinoal parameters 
